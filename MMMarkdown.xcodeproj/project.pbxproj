@@ -149,20 +149,20 @@
 		BED762281B37819D00687B36 /* MMMarkdown.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813DE214F893EB00EC9469 /* MMMarkdown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762291B37819D00687B36 /* MMMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813DE314F893EB00EC9469 /* MMMarkdown.m */; };
 		BED7622A1B37819D00687B36 /* MMMarkdown-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = BE813DE114F893EB00EC9469 /* MMMarkdown-Prefix.pch */; };
-		BED7622B1B37819D00687B36 /* MMDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7E14F95FD300EC9469 /* MMDocument.h */; };
+		BED7622B1B37819D00687B36 /* MMDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7E14F95FD300EC9469 /* MMDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED7622C1B37819D00687B36 /* MMDocument_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8A14F9658600EC9469 /* MMDocument_Private.h */; };
 		BED7622D1B37819D00687B36 /* MMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7F14F95FD300EC9469 /* MMDocument.m */; };
-		BED7622E1B37819D00687B36 /* MMElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7214F959BC00EC9469 /* MMElement.h */; };
+		BED7622E1B37819D00687B36 /* MMElement.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7214F959BC00EC9469 /* MMElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED7622F1B37819D00687B36 /* MMElement.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7314F959BC00EC9469 /* MMElement.m */; };
-		BED762301B37819D00687B36 /* MMGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8414F9602400EC9469 /* MMGenerator.h */; };
+		BED762301B37819D00687B36 /* MMGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E8414F9602400EC9469 /* MMGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762311B37819D00687B36 /* MMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E8514F9602500EC9469 /* MMGenerator.m */; };
-		BED762321B37819D00687B36 /* MMHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CA52E158179670083887C /* MMHTMLParser.h */; };
+		BED762321B37819D00687B36 /* MMHTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6CA52E158179670083887C /* MMHTMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762331B37819D00687B36 /* MMHTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6CA52F158179670083887C /* MMHTMLParser.m */; };
-		BED762341B37819D00687B36 /* MMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7814F95B2A00EC9469 /* MMParser.h */; };
+		BED762341B37819D00687B36 /* MMParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E7814F95B2A00EC9469 /* MMParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762351B37819D00687B36 /* MMParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E7914F95B2A00EC9469 /* MMParser.m */; };
-		BED762361B37819D00687B36 /* MMScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E9014FACF0C00EC9469 /* MMScanner.h */; };
+		BED762361B37819D00687B36 /* MMScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = BE813E9014FACF0C00EC9469 /* MMScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762371B37819D00687B36 /* MMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BE813E9114FACF0C00EC9469 /* MMScanner.m */; };
-		BED762381B37819D00687B36 /* MMSpanParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF3421A150CEA6D00BFA0E2 /* MMSpanParser.h */; };
+		BED762381B37819D00687B36 /* MMSpanParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF3421A150CEA6D00BFA0E2 /* MMSpanParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BED762391B37819D00687B36 /* MMSpanParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF3421B150CEA6D00BFA0E2 /* MMSpanParser.m */; };
 /* End PBXBuildFile section */
 
@@ -1346,6 +1346,7 @@
 				BE23E8FA1C0CF3EF0087F587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE23E9181C0CF77D0087F587 /* Build configuration list for PBXNativeTarget "MMMarkdown (watchOS)" */ = {
 			isa = XCConfigurationList;
@@ -1354,6 +1355,7 @@
 				BE23E91A1C0CF77D0087F587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE813DD014F893EB00EC9469 /* Build configuration list for PBXProject "MMMarkdown" */ = {
 			isa = XCConfigurationList;
